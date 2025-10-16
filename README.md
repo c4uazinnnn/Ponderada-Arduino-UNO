@@ -11,6 +11,7 @@ https://www.tinkercad.com/things/g9ComeIuFhz-arduino-caua
 
 Codigo utilizado:
 
+```
 int redPin = 0;
 int greenPin = 1;
 int bluePin = 2;
@@ -102,4 +103,5 @@ void setColor(int red, int green, int blue) {
   analogWrite(greenPin, green);
   analogWrite(bluePin, blue);
 }
- 
+
+```
