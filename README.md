@@ -17,13 +17,13 @@ int greenPin = 1;
 int bluePin = 2;
 
 void setup() {
-  pinMode(11, OUTPUT); // define o pino 13 como saída
+  pinMode(11, OUTPUT);
     
-  pinMode(10, OUTPUT); // define o pino 13 como saída
+  pinMode(10, OUTPUT); 
    
-  pinMode(9, OUTPUT); // define o pino 13 como saída
+  pinMode(9, OUTPUT); 
 
-  pinMode(8, OUTPUT); // define o pino 13 como saída
+  pinMode(8, OUTPUT);
 
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
@@ -76,25 +76,25 @@ digitalWrite(bluePin, HIGH);
 digitalWrite(bluePin, LOW);
   
 
-  digitalWrite(11, HIGH); // acende o LED
-  delay(300);            // espera 1 segundo
-  digitalWrite(11, LOW);  // apaga o LED
-  delay(300);            // espera 1 segundo
+  digitalWrite(11, HIGH);
+  delay(300);           
+  digitalWrite(11, LOW);  
+  delay(300);            
 
-  digitalWrite(10, HIGH); // acende o LED
-  delay(300);            // espera 1 segundo
-  digitalWrite(10, LOW);  // apaga o LED
-  delay(300);            // espera 1 segundo
+  digitalWrite(10, HIGH);
+  delay(300);           
+  digitalWrite(10, LOW);  
+  delay(300);            
 
-  digitalWrite(9, HIGH); // acende o LED
-  delay(300);            // espera 1 segundo
-  digitalWrite(9, LOW);  // apaga o LED
-  delay(300);            // espera 1 segundo
+  digitalWrite(9, HIGH);
+  delay(300);           
+  digitalWrite(9, LOW);  
+  delay(300);           
 
-  digitalWrite(8, HIGH); // acende o LED
-  delay(300);            // espera 1 segundo
-  digitalWrite(8, LOW);  // apaga o LED
-  delay(300);            // espera 1 segundo
+  digitalWrite(8, HIGH); 
+  delay(300);           
+  digitalWrite(8, LOW); 
+  delay(300);           
 
 }
 
